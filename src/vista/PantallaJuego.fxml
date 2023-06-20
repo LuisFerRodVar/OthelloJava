@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="755.0" style="-fx-background-color: #188137;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.PantallaJuegoController">
+   <children>
+      <Label layoutX="78.0" layoutY="15.0" text="A">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="138.0" layoutY="15.0" text="B">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="198.0" layoutY="15.0" text="C">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="257.0" layoutY="15.0" text="D">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="318.0" layoutY="15.0" text="E">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="379.0" layoutY="15.0" text="F">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="437.0" layoutY="15.0" text="G">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="69.0" text="1">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="129.0" text="2">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="189.0" text="3">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="250.0" text="4">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="309.0" text="5">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="369.0" text="6">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="497.0" layoutY="15.0" text="H">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="429.0" text="7">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="489.0" text="8">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button id="a1" fx:id="btna1" layoutX="63.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b1" fx:id="btnb1" layoutX="122.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c1" fx:id="btnc1" layoutX="183.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d1" fx:id="btnd1" layoutX="243.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e1" fx:id="btne1" layoutX="302.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f1" fx:id="btnf1" layoutX="362.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g1" fx:id="btng1" layoutX="423.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h1" fx:id="btnh1" layoutX="483.0" layoutY="65.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a2" fx:id="btna2" layoutX="63.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b2" fx:id="btnb2" layoutX="122.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c2" fx:id="btnc2" layoutX="183.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d2" fx:id="btnd2" layoutX="243.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e2" fx:id="btne2" layoutX="302.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f2" fx:id="btnf2" layoutX="362.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g2" fx:id="btng2" layoutX="423.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h2" fx:id="btnh2" layoutX="483.0" layoutY="125.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a3" fx:id="btna3" layoutX="63.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b3" fx:id="btnb3" layoutX="122.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c3" fx:id="btnc3" layoutX="183.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d3" fx:id="btnd3" layoutX="243.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e3" fx:id="btne3" layoutX="302.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f3" fx:id="btnf3" layoutX="362.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g3" fx:id="btng3" layoutX="423.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h3" fx:id="btnh3" layoutX="483.0" layoutY="185.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a4" fx:id="btna4" layoutX="63.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b4" fx:id="btnb4" layoutX="122.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c4" fx:id="btnc4" layoutX="183.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d4" fx:id="btnd4" layoutX="243.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e4" fx:id="btne4" layoutX="302.0" layoutY="246.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f4" fx:id="btnf4" layoutX="362.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g4" fx:id="btng4" layoutX="423.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h4" fx:id="btnh4" layoutX="483.0" layoutY="245.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a5" fx:id="btna5" layoutX="63.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b5" fx:id="btnb5" layoutX="122.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c5" fx:id="btnc5" layoutX="183.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d5" fx:id="btnd5" layoutX="243.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e5" fx:id="btne5" layoutX="302.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f5" fx:id="btnf5" layoutX="362.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g5" fx:id="btng5" layoutX="423.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h5" fx:id="btnh5" layoutX="483.0" layoutY="305.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a6" fx:id="btna6" layoutX="63.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b6" fx:id="btnb6" layoutX="122.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c6" fx:id="btnc6" layoutX="183.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d6" fx:id="btnd6" layoutX="243.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e6" fx:id="btne6" layoutX="302.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f6" fx:id="btnf6" layoutX="362.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g6" fx:id="btng6" layoutX="423.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h6" fx:id="btnh6" layoutX="483.0" layoutY="365.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a7" fx:id="btna7" layoutX="63.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b7" fx:id="btnb7" layoutX="122.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c7" fx:id="btnc7" layoutX="183.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d7" fx:id="btnd7" layoutX="243.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e7" fx:id="btne7" layoutX="302.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f7" fx:id="btnf7" layoutX="362.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g7" fx:id="btng7" layoutX="423.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h7" fx:id="btnh7" layoutX="483.0" layoutY="425.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="a8" fx:id="btna8" layoutX="63.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="b8" fx:id="btnb8" layoutX="122.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="c8" fx:id="btnc8" layoutX="183.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="d8" fx:id="btnd8" layoutX="243.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="e8" fx:id="btne8" layoutX="302.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="f8" fx:id="btnf8" layoutX="362.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="g8" fx:id="btng8" layoutX="423.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <Button id="h8" fx:id="btnh8" layoutX="483.0" layoutY="485.0" mnemonicParsing="false" onAction="#jugar" prefHeight="42.0" prefWidth="45.0" style="-fx-background-color: #188137; -fx-border-color: black;" />
+      <ListView fx:id="listaJugadas" layoutX="555.0" prefHeight="240.0" prefWidth="200.0" />
+      <Label fx:id="labelJugadorNegras" layoutX="555.0" layoutY="253.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelJugadorBlancas" layoutX="685.0" layoutY="253.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelContadorNegras" layoutX="562.0" layoutY="296.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelContadorBlancas" layoutX="692.0" layoutY="296.0" style="-fx-background-color: ;" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelTurno" layoutX="545.0" layoutY="412.0" text="Juegan las blancas">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReinicio" layoutX="611.0" layoutY="485.0" mnemonicParsing="false" onAction="#reiniciar" text="Reiniciar" />
+   </children>
+</AnchorPane>

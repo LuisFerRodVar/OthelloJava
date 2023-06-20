@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #188137;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.AcercaDeController">
+   <children>
+      <AnchorPane layoutX="111.0" layoutY="51.0" prefHeight="299.0" prefWidth="258.0" style="-fx-background-color: #9b783b;">
+         <children>
+            <Label layoutY="14.0" text="Desarrollado: Luis Fernando Rodríguez" />
+            <Label layoutY="49.0" text="Algoritmos y estructuras de datos UCR sede del Sur 2022" />
+            <Label layoutY="89.0" text="Versión 1.0" />
+            <Button fx:id="btnVolver" layoutX="157.0" layoutY="254.0" mnemonicParsing="false" onAction="#regresar" text="Volver" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #188137;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Pantalla1JugadorController">
+   <children>
+      <TextField fx:id="txtNombre" layoutX="300.0" layoutY="111.0" />
+      <Label layoutX="87.0" layoutY="109.0" style="-fx-background-color: #9b783b;" text="Digite su nombre:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="200.0" style="-fx-background-color: #9b783b;" text="Seleccione su rival:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBots" layoutX="300.0" layoutY="202.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button layoutX="142.0" layoutY="306.0" mnemonicParsing="false" onAction="#iniciar" text="Iniciar" />
+      <Button layoutX="402.0" layoutY="306.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
+   </children>
+</AnchorPane>
